@@ -12,7 +12,12 @@ Our approach utilizes a latent diffusion model to generate CTPA-based PE classif
 the corresponding loss of the teacher-student embeddings increases performance, bringing it close to clinical-level performance. We show state-of-the-art AUC in a PE categorization task using only the initial CXR input. 
 This approach broadens the diagnostic capabilities of CXRs by enabling their use in PE classification, thereby extending their applicability beyond traditional imaging roles.
 
+
 Our suggested model is presented below:
+
+![](assets/xray-ct-embeddings3.png)
+
+
 
 # Results
 We compare the average AUC scores (with a 95% confidence interval) of the PE classification from X-ray and CTPA only baselines and the Generated CTPAs embeddings on our test set. 
